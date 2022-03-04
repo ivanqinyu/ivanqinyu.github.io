@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Ivan Qin"
   avatar           : "/images/head.png"
-  bio              : "Master Engineering student in Mathematics and Computer science from University of Bristol"
+  bio              : "Master Engineering student in Mathematics and Computer Science from University of Bristol"
   location         : "Bristol, UK"
   employer         :
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   #googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :  ivanqinyu at gmail dot com
+  email            : "ivanqinyu at gmail dot com"
   #researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
