@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Ivan Qin"
-  avatar           : "images/head.png"
+  avatar           : "/images/head.png"
   bio              : "MEng student in Mathematics and Computer science"
   location         : "Bristol, UK"
   employer         :
