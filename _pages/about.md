@@ -12,15 +12,16 @@ Email: ivan.qin.2018@bristol.ac.uk
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-
 Hi! I'm a fourth year Master Engineer student doing the **Computer Science and Mathematics** at **University of Bristol**.
 
 My main research interests lie in Algorithms and Data Structures, Data Streaming algorithm and Deep Learning.
 
 I am currently looking for a relative Ph.D. or a job opportunity.
   
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
