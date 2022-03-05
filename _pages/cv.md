@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Yu Qin (Ivan) 秦禹"
+title: "Yu Qin (Ivan)"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -22,35 +22,41 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Sep 2020 – June 2022: (Remote) Research Assistant 
+  * Mars Man AI club, Nanjing, China
+  * Duties included: 
+   * Collaborated with senior researchers in reproducing classic deep learning, computer vision paper projects.
+   * Researched on static Swapface to create Real-time Image Animation using deep learning techniques built the generative adversarial networks.
+   * Achieved the fastest running time among all the group.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
+* June 2019 – Aug 2019: (Internship) Software Engineer
+  * Intelligence Pay, Shanghai, China
+  * Duties included:
+   * Assisted in building the login system back-end for the company internal system, and created a tool for printing employee attendance schedules.
+   * Developed an ID card info-reader for data analysis group. Improved on computer vision algorithms to the data recognition rate from 70% to 90%.
+   * Used Python to filter and clean data from Excel, transferred the database to Oracle.
+
+* Sep 2018 – Nov 2019: Mentee
+  * Dyson, Bristol, UK
+  * Duties included:
+   * Collaborated with the mentor from Dyson, Bristol office.
+   * Visited the Bristol Dyson office and gave an introduction to 5G speech to all mentor and mentee on insight day.
+
+Technical Skills and Languages
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages: Python, Java, C/C++, Haskell, Golang, Prolog, JS/HTML/CSS
+* Frameworks and Tools: Tensorflow, PyTorch, LATEX, SQL, pandas, R studio, Git
 
 Projects
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed%}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.teaching reversed%}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
