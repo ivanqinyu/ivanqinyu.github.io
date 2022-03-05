@@ -1,5 +1,5 @@
 ---
-title: "How Mathematics and Computers solving the Rubik's cubes"
+title: "How Mathematics and Computers solve Rubik's cubes"
 collection: publications
 permalink: /publication/project3
 excerpt: '[Group theory, Algorithm, Deep Learning] This paper researched and compared the algorithms of solving Rubik's Cube.'
