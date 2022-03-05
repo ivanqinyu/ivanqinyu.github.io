@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant"
+title: "Teaching Assistant COMS10004 Mathematics in Computer science in 2021"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/teaching-2

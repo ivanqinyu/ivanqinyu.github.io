@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant"
+title: "Teaching Assistant COMS10007 Algorithm in 2020"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/teaching-1
