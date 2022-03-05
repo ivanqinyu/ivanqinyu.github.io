@@ -1,15 +1,13 @@
 ---
-title: "Paper Title Number 3"
+title: "Game of life"
 collection: publications
 permalink: /publication/project2
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+excerpt: '[Go, Concurrent Programming] Multi-threaded and multi-process simulation game of life in GO.'
+date: 2019-12-01
+venue: 'UOB COMS20001 Golang'
+paperurl: 'https://github.com/ivanqinyu/COMS20001-Golang/blob/master/report.pdf'
 ---
-This paper is about the number 3. The number 4 is left for future work.
+This project is the coursework of COMS20001 from University of Bristol. 
+Completed in cooperation with Kaihuang Huang.
 
-[Download paper here](http://academicpages.github.io/files/paper3.pdf)
-
-Recommended citation: Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).
+[Download code and paper here](https://github.com/ivanqinyu/COMS20001-Golang)
