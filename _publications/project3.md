@@ -2,7 +2,7 @@
 title: "How Mathematics and Computers solving the Rubik's cubes"
 collection: publications
 permalink: /publication/project3
-excerpt: '[Group theory, Algorithm, Deep Learning] This paper researched and compared the algorithms of solving Rubik's Cube'
+excerpt: '[Group theory, Algorithm, Deep Learning] This paper researched and compared the algorithms of solving Rubik's Cube.'
 date: 2021-05-01
 venue: 'UOB MATH32200 Mathematics Project'
 paperurl: 'https://github.com/ivanqinyu/MATH32200-RubikCube/blob/master/math_rubik.pdf'
