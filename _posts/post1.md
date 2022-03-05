@@ -1,11 +1,12 @@
 ---
 title: 'Test Post'
 date: 2022-03-05
-permalink: /posts/post1
+permalink: /posts/2022/03/post1/
 tags:
   - introduction
+  - new
 ---
-
+1111111111111111111
 This is a sample blog post. 
 
 Headings are cool
