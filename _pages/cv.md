@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Yu Qin (Ivan) 秦禹"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,13 +11,13 @@ redirect_from:
 
 Education
 ======
-*University of Bristol Bristol, UK
-  *MEng (Hons) in Computer Science and Mathematics (Joint Degree) 2018 – 2022
-    *GPA: Expected 1st
-    *Interested research directions: Algorithms and Data Structures, Big Data computation, Machine Learning, etc.
-*King Edward VI College Stourbridge, UK
-  *A-Level 2016 – 2018
-    *Mathematics (A*), Further Mathematics (A*), Computer science (A*), Physics (A), Chinese (A)
+* University of Bristol Bristol, UK
+  * MEng (Hons) in Computer Science and Mathematics (Joint Degree) 2018 – 2022
+    * GPA: Expected 1st
+    * Interested research directions: Algorithms and Data Structures, Big Data computation, Machine Learning, etc.
+* King Edward VI College Stourbridge, UK
+  * A-Level 2016 – 2018
+    * Mathematics (A*), Further Mathematics (A*), Computer science (A*), Physics (A), Chinese (A)
 
 
 Work experience
@@ -41,7 +41,7 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Project
+Projects
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
@@ -61,6 +61,6 @@ Languages
 
 Activities and Hobbies
 ======
-* Activities: Member at Bristol Computer Science Society 2018 – 2022
+* Activities: Member at Bristol Computer Science Society
   * Attended society activities and speeches about technologies, participated in coding hackathons
 * Hobbies: Rubiks cube, Badminton, Table tennis
