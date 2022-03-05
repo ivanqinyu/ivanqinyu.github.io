@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Download the pdf file here~~~](/files/ivan.pdf)
+
 Education
 ======
 * University of Bristol Bristol, UK
@@ -25,22 +27,22 @@ Work experience
 * Sep 2020 – June 2022: (Remote) Research Assistant 
   * Mars Man AI club, Nanjing, China
   * Duties included: 
-   * Collaborated with senior researchers in reproducing classic deep learning, computer vision paper projects.
-   * Researched on static Swapface to create Real-time Image Animation using deep learning techniques built the generative adversarial networks.
-   * Achieved the fastest running time among all the group.
+    * Collaborated with senior researchers in reproducing classic deep learning, computer vision paper projects.
+    * Researched on static Swapface to create Real-time Image Animation using deep learning techniques built the generative adversarial networks.
+    * Achieved the fastest running time among all the group.
 
 * June 2019 – Aug 2019: (Internship) Software Engineer
   * Intelligence Pay, Shanghai, China
   * Duties included:
-   * Assisted in building the login system back-end for the company internal system, and created a tool for printing employee attendance schedules.
-   * Developed an ID card info-reader for data analysis group. Improved on computer vision algorithms to the data recognition rate from 70% to 90%.
-   * Used Python to filter and clean data from Excel, transferred the database to Oracle.
+    * Assisted in building the login system back-end for the company internal system, and created a tool for printing employee attendance schedules.
+    * Developed an ID card info-reader for data analysis group. Improved on computer vision algorithms to the data recognition rate from 70% to 90%.
+    * Used Python to filter and clean data from Excel, transferred the database to Oracle.
 
 * Sep 2018 – Nov 2019: Mentee
   * Dyson, Bristol, UK
   * Duties included:
-   * Collaborated with the mentor from Dyson, Bristol office.
-   * Visited the Bristol Dyson office and gave an introduction to 5G speech to all mentor and mentee on insight day.
+    * Collaborated with the mentor from Dyson, Bristol office.
+    * Visited the Bristol Dyson office and gave an introduction to 5G speech to all mentor and mentee on insight day.
 
 Technical Skills and Languages
 ======
