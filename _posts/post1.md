@@ -1,7 +1,7 @@
 ---
 title: 'Test Post'
 date: 2022-03-05
-permalink: /posts/2022/03/post1/
+permalink: /posts/post1
 tags:
   - introduction
 ---
