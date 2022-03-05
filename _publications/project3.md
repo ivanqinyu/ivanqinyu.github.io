@@ -1,15 +1,16 @@
 ---
-title: "Paper Title Number 2"
+title: "How Mathematics and Computers help us solve the Rubik's cubes"
 collection: publications
 permalink: /publication/project3
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+excerpt: '[Group theory, Algorithm, Deep Learning] This paper researched and compared the algorithms of solving Rubik's Cube'
+date: 2021-05-01
+venue: 'UOB MATH32200 Mathematics Project'
+paperurl: 'https://github.com/ivanqinyu/MATH32200-RubikCube/blob/master/math_rubik.pdf'
 ---
-This paper is about the number 2. The number 3 is left for future work.
+This paper is finished by myself, and supervised by Prof. Francesco Mezzadri. It is the Year-3 Mathematics thesis.
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
+It discussed the mathematics nature (Group theory) of the rubik's cube, and compare many computer algorithms for solving Rubik's cube. 
+Moreover, it researched on the state-of-art deep learning solving algorithm.
 
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
+
+[Download paper here](https://github.com/ivanqinyu/MATH32200-RubikCube)
