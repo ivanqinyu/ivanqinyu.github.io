@@ -19,7 +19,7 @@ Education
     * Interested research directions: Algorithms and Data Structures, Big Data computation, Machine Learning, etc.
 * King Edward VI College Stourbridge, UK
   * A-Level 2016 – 2018
-    * Mathematics (A*), Further Mathematics (A*), Computer science (A*), Physics (A), Chinese (A)
+    * Mathematics (A\*), Further Mathematics (A\*), Computer science (A\*), Physics (A), Chinese (A)
 
 
 Work experience
