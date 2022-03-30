@@ -8,5 +8,7 @@ venue: 'UOB COMSM0052 Individual Computer science project'
 paperurl: 'https://github.com/ivanqinyu'
 ---
 This project is final year project, it is still progressing.
+{% include base_path %}
 
+[Download the poster here](/files/project5_poster.pdf)
 [Download code here](https://github.com/ivanqinyu)
