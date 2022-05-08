@@ -10,6 +10,7 @@ paperurl: 'https://github.com/ivanqinyu'
 This project is final year project for Master course.
 
 Abstract
+
 Matching in bipartite graph is the problem of finding the largest set of edges selected in a way such that no two edges share the same node. While this problem is well-known and is a
 central problem in graph theory algorithms.
 
@@ -19,9 +20,9 @@ We give worst-case theoretical analyses and validate these analyses through our 
 points that can be optimised from an engineering perspective.
 
 Finally, through experiments on 15 different datasets, we compare the following three algorithms in terms of the number of iterations and run-time in practical.
-• The current state-of-the-art Edmond’s matching algorithm
-• The new auction matching algorithm
-• The improved auction matching algorithm
+-The current state-of-the-art Edmond’s matching algorithm
+-The new auction matching algorithm
+-The improved auction matching algorithm
 
 
 {% include base_path %}
