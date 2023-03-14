@@ -15,11 +15,11 @@ Education
 ======
 * University of Bristol Bristol, UK
   * MEng (Hons) in Computer Science and Mathematics (Joint Degree) 2018 – 2022
-    * GPA: Expected 1st
-    * Interested research directions: Algorithms and Data Structures, Big Data computation, Machine Learning, etc.
+    * GPA: 2:1
+    * Interested directions: Software Development, Algorithms and Data Structures, Big Data computation, Machine Learning, etc.
 * King Edward VI College Stourbridge, UK
   * A-Level 2016 – 2018
-    * Mathematics (A\*), Further Mathematics (A\*), Computer science (A\*), Physics (A), Chinese (A)
+    * Mathematics, Further Mathematics, Computer science, Physics, Chinese
 
 
 Work experience
@@ -32,7 +32,7 @@ Work experience
     * Achieved the fastest running time among all the group.
 
 * June 2019 – Aug 2019: (Internship) Software Engineer
-  * Intelligence Pay, Shanghai, China
+  * Huifutianxia. Co.Ltd Data Center, Shanghai, China
   * Duties included:
     * Assisted in building the login system back-end for the company internal system, and created a tool for printing employee attendance schedules.
     * Developed an ID card info-reader for data analysis group. Improved on computer vision algorithms to the data recognition rate from 70% to 90%.
