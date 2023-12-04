@@ -8,16 +8,20 @@ redirect_from:
   - /about.html
 ---
 
-Email: ivan.qin.2018@bristol.ac.uk
+Email: ivanqinyu@gmail.com
 <br/>
 <br/>
 <br/>
-Hi! I'm a fourth year Master Engineer student doing the **Computer Science and Mathematics** at **University of Bristol**.
+Greetings,
 
-My main research interests lie in Algorithms and Data Structures, Data Streaming algorithm and Deep Learning.
+I'm a software engineer based in Bristol, United Kingdom, deeply passionate about software development, artificial intelligence, and the fascinating realm of financial quantitative trading.
 
-I am currently looking for a relative Ph.D. or a job opportunity.
-  
+I completed my undergraduate and postgraduate studies in Computer Science and Mathematics at the University of Bristol, specializing in algorithms and artificial intelligence.
+
+When I'm not immersed in code, I love exploring new destinations through travel and unwinding with board games.
+
+I'm always eager to connect and share thoughts, so please don't hesitate to get in touch via email.
+
 <br/>
 <br/>
 <br/>
@@ -33,4 +37,4 @@ I am currently looking for a relative Ph.D. or a job opportunity.
 <br/>
 <br/>
 
-Last update: 05/03/2022
+Last update: 04 December 2023
