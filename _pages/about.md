@@ -18,7 +18,8 @@ I'm a software engineer based in Bristol, United Kingdom, deeply passionate abou
 
 I completed my undergraduate and postgraduate studies in Computer Science and Mathematics at the University of Bristol, specializing in algorithms and artificial intelligence.
 
-When I'm not immersed in code, I love exploring new destinations through travel and unwinding with board games.
+When I have free time, I enjoy traveling and capturing moments through vlogging. Check out my travel vlogs [Click here!](https://space.bilibili.com/244731127).
+In addition to that, I like to unwind by playing card games, rubik's cube and board games.
 
 I'm always eager to connect and share thoughts, so please don't hesitate to get in touch via email.
 
