@@ -33,8 +33,5 @@ I'm always eager to connect and share thoughts, so please don't hesitate to get 
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
 
 Last update: 04 December 2023
