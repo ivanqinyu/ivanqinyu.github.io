@@ -18,13 +18,11 @@ I'm a software engineer based in Bristol, United Kingdom, deeply passionate abou
 
 I completed my undergraduate and postgraduate studies in Computer Science and Mathematics at the University of Bristol.
 
-When I have free time, I enjoy traveling and capturing moments through vlogging.
-In addition to that, I like to unwind by playing card games, rubik's cube and board games.
+In my spare time, I enjoy travelling and vlogging. 
+Apart from that, I enjoy playing card games, Rubik's Cube and board games to relax.
 
-I'm always eager to connect and share thoughts, so please don't hesitate to get in touch via email.
+I'm always eager to connect and share ideas, so please feel free to contact me via email.
 
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>
