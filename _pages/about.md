@@ -14,17 +14,16 @@ Email: ivanqinyu@gmail.com
 <br/>
 Greetings,
 
-I'm a software engineer based in Bristol, United Kingdom, deeply passionate about software development, algorithm, artificial intelligence, and financial quantitative trading.
+I am a PhD candidate at the University of Liverpool, where I research Fairness and Diversity in graph algorithms.
 
 I completed my undergraduate and postgraduate studies in Computer Science and Mathematics at the University of Bristol.
 
-In my spare time, I enjoy travelling and vlogging. 
-Apart from that, I enjoy playing card games, Rubik's Cube and board games to relax.
+Outside of academia, I’m passionate about travel and photography.
 
-I'm always eager to connect and share ideas, so please feel free to contact me via email.
+I enjoy exchanging ideas and welcome you to get in touch with me via email at any time.
 
 <br/>
 <br/>
 <br/>
 
-Last update: 31 December 2023
+Last update: 27 November 2025
