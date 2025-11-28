@@ -14,7 +14,7 @@ Email: ivanqinyu@gmail.com
 <br/>
 Greetings,
 
-I am a PhD candidate at the University of Liverpool, where I research Fairness and Diversity in graph algorithms.
+I am a PhD student at the University of Liverpool, where I research Fairness and Diversity in Graph Algorithms.
 
 I completed my undergraduate and postgraduate studies in Computer Science and Mathematics at the University of Bristol.
 
