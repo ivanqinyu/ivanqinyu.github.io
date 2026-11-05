@@ -17,6 +17,12 @@
 
     * { box-sizing: border-box; }
 
+    html { scroll-behavior: smooth; }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+
     body {
       margin: 0;
       color: var(--ink);
@@ -37,20 +43,20 @@
     a:focus-visible { color: var(--ink); }
 
     main {
-      width: min(900px, calc(100% - 48px));
+      width: min(1080px, calc(100% - 48px));
       min-height: 100vh;
       margin: 0 auto;
       padding: clamp(70px, 12vw, 132px) 0 64px;
       display: grid;
       grid-template-columns: 190px minmax(0, 1fr);
-      gap: clamp(42px, 6vw, 64px);
+      gap: clamp(32px, 5vw, 52px);
       align-content: start;
     }
 
     .sidebar img {
       display: block;
       width: 132px;
-      aspect-ratio: 4 / 5;
+      aspect-ratio: 1;
       object-fit: cover;
       object-position: center 34%;
       border-radius: 2px;
@@ -68,13 +74,15 @@
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      gap: 3px;
-      margin-top: 10px;
+      gap: 5px;
+      margin-top: 20px;
       color: var(--muted);
       font-size: 0.82rem;
     }
 
     .contact span { overflow-wrap: anywhere; }
+
+    .contact a:first-of-type { margin-top: 12px; }
 
     .bio {
       min-height: 310px;
@@ -93,8 +101,24 @@
 
     .bio p + p { margin-top: 14px; }
 
-    .publications { margin-top: 36px; }
+    .quiet-link {
+      color: inherit;
+      text-decoration: none;
+      cursor: pointer;
+    }
 
+    .quiet-link:hover { color: inherit; }
+
+    .quiet-link:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+    }
+
+    .publications { margin-top: 100px; }
+
+    .education { margin-top: 100px; }
+
+    .education h2,
     .publications h2 {
       margin: 0 0 14px;
       font-size: 0.78rem;
@@ -102,6 +126,57 @@
       line-height: 1.4;
       letter-spacing: 0.08em;
       text-transform: uppercase;
+    }
+
+    .education-item {
+      display: grid;
+      grid-template-columns: 132px minmax(0, 1fr);
+      gap: 16px;
+    }
+
+    .education-item + .education-item { margin-top: 14px; }
+
+    .education-degree {
+      color: var(--ink);
+      font-size: 0.84rem;
+      font-weight: 650;
+      line-height: 1.65;
+      white-space: nowrap;
+    }
+
+    .education-field {
+      font-weight: 600;
+      line-height: 1.5;
+    }
+
+    .education-school {
+      display: inline-block;
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 0.84rem;
+      font-weight: 400;
+      line-height: 1.65;
+    }
+
+    .education-school strong {
+      color: var(--ink);
+      font-weight: 650;
+    }
+
+    .school-line {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+    }
+
+    .school-mark {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      flex: 0 0 24px;
+      object-fit: contain;
+      object-position: center;
     }
 
     .publication {
@@ -129,6 +204,67 @@
       line-height: 1.65;
     }
 
+    .photography {
+      grid-column: 1 / -1;
+      margin-top: clamp(1560px, 255vh, 3000px);
+      padding-top: 4px;
+      border-top: 1px solid var(--line);
+    }
+
+    .photography-rows {
+      display: grid;
+      gap: 30px;
+      overflow: hidden;
+      touch-action: pan-y;
+      user-select: none;
+    }
+
+    .photography-row {
+      overflow: hidden;
+      cursor: grab;
+    }
+
+    .photography-row.is-dragging { cursor: grabbing; }
+
+    .photography-track {
+      display: flex;
+      width: max-content;
+      align-items: center;
+      gap: 18px;
+      will-change: transform;
+    }
+
+    .photography-card {
+      display: block;
+      width: auto;
+      height: auto;
+      flex: 0 0 auto;
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    .photography-card img {
+      display: block;
+      width: auto;
+      height: clamp(170px, 20vw, 240px);
+      max-width: none;
+      background: #f2f4f2;
+      object-fit: contain;
+    }
+
+    .photography-card-caption {
+      display: block;
+      margin-top: 7px;
+      font-size: 0.74rem;
+      line-height: 1.4;
+      white-space: nowrap;
+    }
+
+    .photography-card:hover .photography-card-caption,
+    .photography-card:focus-visible .photography-card-caption {
+      color: var(--accent);
+    }
+
     @media (max-width: 620px) {
       main {
         width: min(100% - 32px, 480px);
@@ -146,12 +282,13 @@
       }
 
       .sidebar img {
+        display: block;
         width: 104px;
         grid-row: 1 / span 3;
       }
 
       h1 { margin-top: 0; font-size: 1.75rem; }
-      .contact { margin-top: 7px; gap: 1px; font-size: 0.76rem; }
+      .contact { margin-top: 12px; gap: 1px; font-size: 0.76rem; }
 
       .bio {
         min-height: 0;
@@ -161,13 +298,19 @@
       }
 
       .bio p { font-size: 0.94rem; line-height: 1.8; }
+
+      .photography { margin-top: clamp(1080px, 210vh, 2280px); }
+      .photography-rows { gap: 24px; }
+      .photography-track { gap: 14px; }
+      .photography-card img { height: 160px; }
+      .school-line { white-space: normal; }
     }
   </style>
 </head>
 <body>
   <main>
     <aside class="sidebar" aria-label="Profile">
-      <img src="images/head.png" alt="Portrait of Ivan Qin" width="132" height="165">
+      <img src="images/head.png" alt="Portrait of Ivan Qin" width="132" height="132">
       <h1>Ivan Qin</h1>
       <div class="contact">
         <span>Liverpool, UK</span>
@@ -178,9 +321,8 @@
     </aside>
 
     <section class="bio" aria-label="Biography">
-      <p>I am a PhD student in Computer Science at the University of Liverpool, supervised by <a href="https://lutzoe.github.io/">Lutz Oettershagen</a> and <a href="https://www.csc.liv.ac.uk/~pwong/">Prudence Wong</a>. My research focuses on fairness and diversity in graph algorithms.</p>
-      <p>Before that, I completed my undergraduate and postgraduate studies in Computer Science and Mathematics at the University of Bristol.</p>
-      <p>Outside academia, I enjoy travelling and photography.</p>
+      <p>I am a PhD student in Computer Science at the University of Liverpool, supervised by <a href="https://lutzoe.github.io/">Dr Lutz Oettershagen</a> and <a href="https://www.csc.liv.ac.uk/~pwong/">Professor Prudence Wong</a>. My research focuses on fairness and diversity in graph algorithms.</p>
+      <p>Outside academia, I enjoy <a class="quiet-link" href="#photography">travelling and photography</a>.</p>
 
       <section class="publications" aria-labelledby="publications-title">
         <h2 id="publications-title">Publications</h2>
@@ -192,7 +334,149 @@
           </div>
         </article>
       </section>
+
+      <section class="education" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <article class="education-item">
+          <div class="education-degree">PhD (Ongoing)</div>
+          <div>
+            <div class="education-field">Computer Science</div>
+            <div class="education-school">
+              <span class="school-line"><img class="school-mark" src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Arms_of_the_University_of_Liverpool.svg" alt=""><strong>University of Liverpool</strong> and <img class="school-mark" src="https://upload.wikimedia.org/wikipedia/commons/5/5c/NTHU_Round_Seal.svg" alt=""><strong>National Tsing Hua University</strong></span>
+            </div>
+          </div>
+        </article>
+        <article class="education-item">
+          <div class="education-degree">Master &amp; Bachelor</div>
+          <div>
+            <div class="education-field">Computer Science and Mathematics</div>
+            <div class="education-school"><span class="school-line"><img class="school-mark" src="https://upload.wikimedia.org/wikipedia/commons/9/99/University_of_Bristol_shield.svg" alt=""><strong>University of Bristol</strong></span></div>
+          </div>
+        </article>
+      </section>
+
     </section>
+
+    <section class="photography" id="photography" aria-label="Photography">
+      <div class="photography-rows" id="photography-rows"></div>
+    </section>
+
   </main>
+
+  <script>
+    (() => {
+      const container = document.getElementById('photography-rows');
+      if (!container) return;
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const rows = [];
+      let lastFrame = 0;
+
+      const makeCard = (photo) => {
+        const card = document.createElement('a');
+        card.className = 'photography-card';
+        card.href = `images/photography/${photo.src}`;
+        card.target = '_blank';
+        card.rel = 'noopener';
+        card.setAttribute('aria-label', `${photo.caption}: ${photo.alt}`);
+        const image = document.createElement('img');
+        image.src = `images/photography/${photo.src}`;
+        image.alt = photo.alt;
+        image.loading = 'eager';
+        image.draggable = false;
+        card.appendChild(image);
+        const label = document.createElement('span');
+        label.className = 'photography-card-caption';
+        label.textContent = photo.caption;
+        card.appendChild(label);
+        return card;
+      };
+
+      const addRow = (photos, reverse) => {
+        const viewport = document.createElement('div');
+        viewport.className = 'photography-row';
+        viewport.tabIndex = 0;
+        const track = document.createElement('div');
+        track.className = 'photography-track';
+        [...photos, ...photos, ...photos].forEach((photo) => track.appendChild(makeCard(photo)));
+        viewport.appendChild(track);
+        container.appendChild(viewport);
+
+        const decoded = [...track.querySelectorAll('img')].map((image) => (
+          typeof image.decode === 'function' ? image.decode().catch(() => undefined) : Promise.resolve()
+        ));
+        return Promise.all(decoded).then(() => {
+          const row = {
+            viewport,
+            track,
+            loopWidth: track.scrollWidth / 3,
+            offset: reverse ? -(track.scrollWidth / 3) * 2 : -(track.scrollWidth / 3),
+            dragging: false,
+            lastX: 0,
+            speed: reverse ? 0.028 : -0.028
+          };
+          rows.push(row);
+
+          const normalize = () => {
+            while (row.speed < 0 && row.offset <= -row.loopWidth * 2) row.offset += row.loopWidth;
+            while (row.speed > 0 && row.offset >= -row.loopWidth) row.offset -= row.loopWidth;
+            track.style.transform = `translate3d(${row.offset}px, 0, 0)`;
+          };
+          row.normalize = normalize;
+          normalize();
+
+          viewport.addEventListener('pointerdown', (event) => {
+            row.dragging = true;
+            row.lastX = event.clientX;
+            viewport.classList.add('is-dragging');
+            viewport.setPointerCapture(event.pointerId);
+          });
+          viewport.addEventListener('pointermove', (event) => {
+            if (!row.dragging) return;
+            event.preventDefault();
+            row.offset += event.clientX - row.lastX;
+            row.lastX = event.clientX;
+            normalize();
+          });
+          const stopDragging = (event) => {
+            row.dragging = false;
+            viewport.classList.remove('is-dragging');
+            if (event.pointerId !== undefined && viewport.hasPointerCapture(event.pointerId)) viewport.releasePointerCapture(event.pointerId);
+          };
+          viewport.addEventListener('pointerup', stopDragging);
+          viewport.addEventListener('pointercancel', stopDragging);
+          viewport.addEventListener('keydown', (event) => {
+            if (event.key === 'ArrowLeft') row.offset -= 220;
+            if (event.key === 'ArrowRight') row.offset += 220;
+            normalize();
+          });
+        });
+      };
+
+      const animate = (time) => {
+        const elapsed = lastFrame ? Math.min(time - lastFrame, 50) : 16;
+        lastFrame = time;
+        if (!reducedMotion) rows.forEach((row) => {
+          if (!row.dragging) {
+            row.offset += row.speed * elapsed;
+            row.normalize();
+          }
+        });
+        window.requestAnimationFrame(animate);
+      };
+
+      fetch('images/photography/manifest.json')
+        .then((response) => response.json())
+        .then((photos) => {
+          for (let i = photos.length - 1; i > 0; i -= 1) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [photos[i], photos[j]] = [photos[j], photos[i]];
+          }
+          const rowCount = Math.min(3, Math.max(2, photos.length));
+          const rowSize = Math.ceil(photos.length / rowCount);
+          Promise.all(Array.from({ length: rowCount }, (_, i) => addRow(photos.slice(i * rowSize, (i + 1) * rowSize), i % 2 === 1)))
+            .then(() => window.requestAnimationFrame(animate));
+        });
+    })();
+  </script>
 </body>
 </html>
