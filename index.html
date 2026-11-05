@@ -314,10 +314,13 @@
         white-space: normal;
       }
 
-      .school-part { display: flex; }
+      .school-part {
+        display: flex;
+        width: 100%;
+      }
       .school-and {
         display: block;
-        margin: 3px 0 3px 26px;
+        margin: 3px 0 3px 32px;
       }
     }
   </style>
@@ -382,6 +385,13 @@
     (() => {
       const container = document.getElementById('photography-rows');
       if (!container) return;
+      document.querySelectorAll('a[href="#photography"]').forEach((link) => {
+        link.addEventListener('click', (event) => {
+          event.preventDefault();
+          document.getElementById('photography').scrollIntoView({ behavior: 'smooth', block: 'start' });
+          window.history.replaceState(null, '', window.location.pathname + window.location.search);
+        });
+      });
       const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       const rows = [];
       let lastFrame = 0;
