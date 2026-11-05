@@ -170,6 +170,12 @@
       white-space: nowrap;
     }
 
+    .school-part {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
     .school-mark {
       display: inline-block;
       width: 24px;
@@ -303,7 +309,16 @@
       .photography-rows { gap: 24px; }
       .photography-track { gap: 14px; }
       .photography-card img { height: 160px; }
-      .school-line { white-space: normal; }
+      .school-line {
+        display: block;
+        white-space: normal;
+      }
+
+      .school-part { display: flex; }
+      .school-and {
+        display: block;
+        margin: 3px 0 3px 26px;
+      }
     }
   </style>
 </head>
@@ -342,7 +357,7 @@
           <div>
             <div class="education-field">Computer Science</div>
             <div class="education-school">
-              <span class="school-line"><img class="school-mark" src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Arms_of_the_University_of_Liverpool.svg" alt=""><strong>University of Liverpool</strong> and <img class="school-mark" src="https://upload.wikimedia.org/wikipedia/commons/5/5c/NTHU_Round_Seal.svg" alt=""><strong>National Tsing Hua University</strong></span>
+              <span class="school-line"><span class="school-part"><img class="school-mark" src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Arms_of_the_University_of_Liverpool.svg" alt=""><strong>University of Liverpool</strong></span><span class="school-and">and</span><span class="school-part"><img class="school-mark" src="https://upload.wikimedia.org/wikipedia/commons/5/5c/NTHU_Round_Seal.svg" alt=""><strong>National Tsing Hua University</strong></span></span>
             </div>
           </div>
         </article>
