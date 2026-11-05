@@ -91,12 +91,12 @@
     }
 
     .bio p {
-      max-width: 590px;
+      max-width: 700px;
       margin: 0;
       color: #282c29;
       font-size: 1rem;
       font-weight: 430;
-      line-height: 1.9;
+      line-height: 1.8;
     }
 
     .bio p + p { margin-top: 14px; }
@@ -114,7 +114,7 @@
       outline-offset: 3px;
     }
 
-    .publications { margin-top: 100px; }
+    .publications { margin-top: 78px; }
 
     .education { margin-top: 100px; }
 
@@ -212,9 +212,42 @@
 
     .photography {
       grid-column: 1 / -1;
-      margin-top: clamp(1560px, 255vh, 3000px);
       padding-top: 4px;
       border-top: 1px solid var(--line);
+    }
+
+    .photography-spacer {
+      position: relative;
+      grid-column: 1 / -1;
+      height: clamp(900px, 150vh, 1700px);
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 50% 48%, rgba(23, 98, 72, 0.06), transparent 36%),
+        linear-gradient(to bottom, transparent 0%, rgba(223, 226, 223, 0.18) 50%, transparent 100%);
+    }
+
+    .photography-spacer::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: var(--muted);
+      content: "SCROLL TO WANDER";
+      font-size: 0.66rem;
+      letter-spacing: 0.22em;
+      line-height: 1;
+      opacity: 0.52;
+      transform: translate(-50%, -50%);
+    }
+
+    .photography-spacer::after {
+      position: absolute;
+      top: calc(50% + 22px);
+      left: 50%;
+      width: 1px;
+      height: 58px;
+      background: linear-gradient(to bottom, transparent, var(--line), transparent);
+      content: "";
+      opacity: 0.45;
     }
 
     .photography-rows {
@@ -252,7 +285,7 @@
     .photography-card img {
       display: block;
       width: auto;
-      height: clamp(170px, 20vw, 240px);
+      height: clamp(150px, 16vw, 210px);
       max-width: none;
       background: #f2f4f2;
       object-fit: contain;
@@ -303,12 +336,13 @@
         border-left: 0;
       }
 
-      .bio p { font-size: 0.94rem; line-height: 1.8; }
+      .bio p { max-width: 100%; font-size: 0.94rem; line-height: 1.75; }
 
-      .photography { margin-top: clamp(1080px, 210vh, 2280px); }
       .photography-rows { gap: 24px; }
       .photography-track { gap: 14px; }
       .photography-card img { height: 160px; }
+      .photography-spacer { height: clamp(1080px, 210vh, 2280px); }
+      .photography-spacer::after { height: 54px; }
       .school-line {
         display: block;
         white-space: normal;
@@ -348,7 +382,7 @@
           <div class="publication-year">2026</div>
           <div>
             <a class="publication-title" href="https://arxiv.org/abs/2609.03899">Fair Top-k Katz Centrality via Graph Design</a>
-            <div class="publication-meta">Ivan Qin, Prudence Wong, and Lutz Oettershagen<br>arXiv:2609.03899</div>
+            <div class="publication-meta">Ivan Qin, Prudence Wong, and Lutz Oettershagen · arXiv:2609.03899</div>
           </div>
         </article>
       </section>
@@ -375,6 +409,7 @@
 
     </section>
 
+    <div class="photography-spacer" id="photography-spacer" aria-hidden="true"></div>
     <section class="photography" id="photography" aria-label="Photography">
       <div class="photography-rows" id="photography-rows"></div>
     </section>
